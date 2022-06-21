@@ -9,12 +9,10 @@ html {
 	margin: 0 auto;
 }
 
-.header__logo {
-	display: inline-block;
-	vertical-align: middle;
-}
 
 .header__logo-img {
+	display: inline-block;
+	vertical-align: middle;
 	width: 88px;
 	height: 36px;
 }
@@ -41,6 +39,11 @@ html {
 	text-decoration: none;
 }
 
+.header__link-btn:hover {
+	opacity: 1;
+	font-weight: 400;
+}
+
 .header__user {
 	margin-left: 154px;
 	color: #fff;
@@ -48,6 +51,8 @@ html {
 }
 
 .header__user-photo {
+	width: 48px;
+	height: 48px;
 	margin-left: 8px;
 	vertical-align: middle;
 	display: inline-block;
@@ -68,4 +73,62 @@ html {
 	opacity: 1;
 	text-align: right;
 	display: block;
+}
+
+.wrap {
+	width: 100%;
+	max-width: 1376px;
+	margin: 0 auto;
+}
+
+.contant {
+	margin-top: 183px;
+}
+
+.contant__title {
+	text-align: center;
+	color: #fff;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.contant__btn {
+	margin-top: 32px;
+	text-align: center;
+}
+
+.contant__btn-text {
+	padding: 0 24px 0 0;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 12px;
+	background-color: #7B61FF;
+	height: 70px;
+}
+
+.contant__btn-icon {
+	padding: 24px 0 24px 24px;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.contant__btn-text:hover {
+	cursor: pointer;
+}
+
+.choose-menu {
+	padding-top: 184px;
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.choose-menu-btn {
+	
+	border-radius: 12px;
+	width: 1140px;
+	height: 88px;
+	background-color: #fff;
 }
